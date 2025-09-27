@@ -2,7 +2,7 @@ ideas = {
     academy_spirit = {
         KR_whampoa_academy_spirit = {
             on_add = {
-                log = "[GetLogRoot]: add idea mass_assault_academy_spirit"
+                log = "[GetLogRoot]: add idea KR_whampoa_academy_spirit"
                 
             }
             ledger = army
@@ -67,7 +67,7 @@ ideas = {
         ideological_loyalty_spirit_KR = {
             name = ideological_loyalty_spirit
             on_add = {
-                log = "[GetLogRoot]: add idea ideological_loyalty_spirit"
+                log = "[GetLogRoot]: add idea ideological_loyalty_spirit_KR"
                 
             }
             ledger = army

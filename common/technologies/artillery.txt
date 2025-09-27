@@ -837,6 +837,11 @@ technologies = {
                 is_major = yes
                 
             }
+            modifier = {
+                factor = 50
+                has_tech = modern_small_airframe
+                
+            }
             
         }
         categories = {

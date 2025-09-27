@@ -944,10 +944,6 @@ technologies = {
         research_cost = 2
         start_year = 1936
         is_special_project_tech = yes
-        ai_will_do = {
-            factor = 1
-            
-        }
         allow = {
             always = no
             
