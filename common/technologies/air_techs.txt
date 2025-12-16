@@ -752,7 +752,7 @@ technologies = {
             
         }
         path = {
-            leads_to_tech = jet_fighter_a
+            leads_to_tech = supersonic_fighter1
             research_cost_coeff = 1
             
         }
@@ -2072,7 +2072,7 @@ technologies = {
             factor = 1
             modifier = {
                 factor = 5
-                has_tech = air_superiority
+                has_doctrine = new_strategic_destruction
                 
             }
             modifier = {
@@ -2187,7 +2187,7 @@ technologies = {
             factor = 1
             modifier = {
                 factor = 5
-                has_tech = air_superiority
+                has_doctrine = new_strategic_destruction
                 
             }
             modifier = {
@@ -2268,7 +2268,7 @@ technologies = {
             factor = 1
             modifier = {
                 factor = 5
-                has_tech = air_superiority
+                has_doctrine = new_strategic_destruction
                 
             }
             modifier = {

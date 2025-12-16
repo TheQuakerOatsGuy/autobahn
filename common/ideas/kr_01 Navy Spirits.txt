@@ -1,3 +1,355 @@
 ideas = {
+    naval_academy_spirit = {
+        ship_to_shore_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea ship_to_shore_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            available = {
+                OR = {
+                    has_doctrine = new_base_strike
+                    has_doctrine = naval_gunfire_support
+                    
+                }
+                
+            }
+            modifier = {
+                trait_ironside_xp_gain_factor = 0.35
+                shore_bombardment_collateral_damage_factor = 0.5
+                
+            }
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    factor = 2
+                    has_doctrine = naval_gunfire_support
+                    
+                }
+                
+            }
+            
+        }
+        stay_at_your_posts_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea stay_at_your_posts_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            available = {
+                OR = {
+                    has_doctrine = new_convoy_raiding
+                    has_doctrine = screen_support_focus
+                    
+                }
+                
+            }
+            modifier = {
+                trait_blockade_runner_xp_gain_factor = 0.35
+                naval_accidents_chance = -0.15
+                
+            }
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    factor = 2
+                    has_doctrine = screen_support_focus
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+    navy_spirit = {
+        sea_lane_denial_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea sea_lane_denial_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            available = {
+                OR = {
+                    has_doctrine = new_convoy_raiding
+                    has_doctrine = coastal_minelaying
+                    
+                }
+                
+            }
+            research_bonus = {
+                naval_minelaying = 0.3
+                
+            }
+            modifier = {
+                mines_planting_by_fleets_factor = 0.15
+                
+            }
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    factor = 2
+                    has_doctrine = coastal_minelaying
+                    
+                }
+                
+            }
+            
+        }
+        fleet_interoperability_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea fleet_interoperability_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            research_bonus = {
+                naval_equipment = 0.05
+                
+            }
+            modifier = {
+                naval_morale_factor = 0.2
+                
+            }
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    factor = 2
+                    has_doctrine = broad_naval_support
+                    
+                }
+                
+            }
+            available = {
+                OR = {
+                    has_tech = fleet_in_being
+                    has_tech = trade_interdiction
+                    has_tech = base_strike
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+    naval_command_spirit = {
+        aa_curtain_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea aa_curtain_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            available = {
+                OR = {
+                    has_doctrine = new_fleet_in_being
+                    has_doctrine = battleship_antiair_screen
+                    
+                }
+                
+            }
+            modifier = {
+                navy_anti_air_attack_factor = 0.15
+                
+            }
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    factor = 2
+                    OR = {
+                        has_doctrine = anti_aircraft_cruisers
+                        has_doctrine = battleship_antiair_screen
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        }
+        naval_tripwire_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea naval_tripwire_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            available = {
+                OR = {
+                    has_doctrine = new_convoy_raiding
+                    has_doctrine = coastal_defence_fleet
+                    
+                }
+                
+            }
+            modifier = {
+                naval_enemy_fleet_size_ratio_penalty_factor = 0.2
+                
+            }
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    factor = 2
+                    has_doctrine = coastal_defence_fleet
+                    
+                }
+                
+            }
+            
+        }
+        fleet_defense_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea fleet_defense_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            available = {
+                OR = {
+                    has_doctrine = new_base_strike
+                    has_doctrine = light_task_forces
+                    
+                }
+                
+            }
+            modifier = {
+                screening_efficiency = 0.1
+                fighter_sortie_efficiency = 0.1
+                
+            }
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    factor = 2
+                    has_doctrine = light_task_forces
+                    has_doctrine = anti_aircraft_cruisers
+                    
+                }
+                
+            }
+            
+        }
+        selective_engagement_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea selective_engagement_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            available = {
+                OR = {
+                    has_doctrine = new_convoy_raiding
+                    has_doctrine = patrol_boats
+                    
+                }
+                
+            }
+            modifier = {
+                navy_visibility = -0.1
+                
+            }
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    factor = 2
+                    has_doctrine = patrol_boats
+                    
+                }
+                
+            }
+            
+        }
+        rapid_concentration_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea rapid_concentration_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            available = {
+                OR = {
+                    has_doctrine = new_base_strike
+                    has_doctrine = battlecruiser_supremacy
+                    
+                }
+                
+            }
+            modifier = {
+                naval_coordination = 0.15
+                
+            }
+            ai_will_do = {
+                factor = 1
+                
+            }
+            
+        }
+        scouting_force_navy_spirit = {
+            on_add = {
+                log = "[GetLogRoot]: add idea scouting_force_navy_spirit"
+                
+            }
+            ledger = navy
+            allowed = {
+                has_dlc_ncns = yes
+                
+            }
+            available = {
+                OR = {
+                    has_doctrine = new_fleet_in_being
+                    has_doctrine = escort_carrier_support
+                    
+                }
+                
+            }
+            modifier = {
+                spotting_chance = 0.1
+                naval_detection = 0.1
+                
+            }
+            ai_will_do = {
+                factor = 1
+                modifier = {
+                    factor = 2
+                    has_doctrine = escort_carrier_support
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
     
 }

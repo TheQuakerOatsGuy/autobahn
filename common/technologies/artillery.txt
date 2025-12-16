@@ -239,6 +239,11 @@ technologies = {
                 date > 1941-01-01
                 
             }
+            modifier = {
+                factor = 50
+                has_tech = improved_medium_tank_chassis
+                
+            }
             
         }
         
@@ -314,6 +319,11 @@ technologies = {
                 date > 1942-01-01
                 
             }
+            modifier = {
+                factor = 50
+                has_tech = advanced_medium_tank_chassis
+                
+            }
             
         }
         
@@ -386,6 +396,11 @@ technologies = {
             modifier = {
                 factor = 5
                 date > 1943-01-01
+                
+            }
+            modifier = {
+                factor = 50
+                has_tech = advanced_medium_tank_chassis
                 
             }
             
