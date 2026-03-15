@@ -20,6 +20,7 @@ dependencies={
 	"Kaiserreich Music: Asia and Oceania"
 	"Kaiserreich(CN.Ver)"
 	"+JP:kaiserreich"
+	"Kaiserreich Enhanced AI"
 }
 name="Autobahn nach 56"
 picture="thumbnail.png"
