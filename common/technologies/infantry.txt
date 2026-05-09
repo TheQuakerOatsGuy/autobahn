@@ -296,6 +296,10 @@ technologies = {
                     tag = GXC
                     tag = SHX
                     tag = SIC
+                    tag = XIC
+                    tag = GDC
+                    tag = HBC
+                    tag = SND
                     tag = YUN
                     
                 }
@@ -1207,13 +1211,112 @@ technologies = {
             max_organisation = 5
             
         }
+        path = {
+            leads_to_tech = rangers_a
+            research_cost_coeff = 1
+            
+        }
         research_cost = 1.5
-        start_year = 1943
+        start_year = 1942
         folder = {
             name = infantry_folder
             position = {
                 x = 22
-                y = @1943
+                y = @1942
+                
+            }
+            
+        }
+        categories = {
+            infantry_tech
+            rangers_tech_cat
+            cat_special_forces_generic
+            
+        }
+        ai_will_do = {
+            factor = 0.7
+            
+        }
+        
+    }
+    rangers_a = {
+        ranger_battalion = {
+            max_organisation = 5
+            
+        }
+        path = {
+            leads_to_tech = rangers_b
+            research_cost_coeff = 1
+            
+        }
+        research_cost = 2.0
+        start_year = 1945
+        folder = {
+            name = infantry_folder
+            position = {
+                x = 22
+                y = @1945
+                
+            }
+            
+        }
+        categories = {
+            infantry_tech
+            rangers_tech_cat
+            cat_special_forces_generic
+            
+        }
+        ai_will_do = {
+            factor = 0.7
+            
+        }
+        
+    }
+    rangers_b = {
+        ranger_battalion = {
+            max_organisation = 5
+            
+        }
+        path = {
+            leads_to_tech = rangers_c
+            research_cost_coeff = 1
+            
+        }
+        research_cost = 2.0
+        start_year = 1949
+        folder = {
+            name = infantry_folder
+            position = {
+                x = 22
+                y = @1949
+                
+            }
+            
+        }
+        categories = {
+            infantry_tech
+            rangers_tech_cat
+            cat_special_forces_generic
+            
+        }
+        ai_will_do = {
+            factor = 0.7
+            
+        }
+        
+    }
+    rangers_c = {
+        ranger_battalion = {
+            max_organisation = 5
+            
+        }
+        research_cost = 2.0
+        start_year = 1953
+        folder = {
+            name = infantry_folder
+            position = {
+                x = 22
+                y = @1953
                 
             }
             
@@ -1941,6 +2044,10 @@ technologies = {
                     tag = GXC
                     tag = SHX
                     tag = SIC
+                    tag = XIC
+                    tag = GDC
+                    tag = HBC
+                    tag = SND
                     tag = YUN
                     
                 }
@@ -2031,6 +2138,10 @@ technologies = {
                     tag = GXC
                     tag = SHX
                     tag = SIC
+                    tag = XIC
+                    tag = GDC
+                    tag = HBC
+                    tag = SND
                     tag = YUN
                     
                 }
@@ -3632,6 +3743,49 @@ technologies = {
         }
         
     }
+    JAP_silver_wheels = {
+        allow = {
+            always = no
+            
+        }
+        research_cost = 1
+        start_year = 1936
+        bicycle_battalion = {
+            forest = {
+                movement = 0.1
+                attack = 0.1
+                
+            }
+            jungle = {
+                movement = 0.1
+                attack = 0.1
+                
+            }
+            
+        }
+        
+    }
+    JAP_lighter_tanks = {
+        allow = {
+            always = no
+            
+        }
+        research_cost = 1
+        start_year = 1936
+        categories = {
+            armor
+            
+        }
+        category_all_armor = {
+            jungle = {
+                defence = 0.1
+                attack = 0.1
+                
+            }
+            
+        }
+        
+    }
     camelry = {
         allow = {
             always = no
@@ -5199,6 +5353,138 @@ technologies = {
         conscription = 0.02
         infantry = {
             combat_width = -0.2
+            
+        }
+        
+    }
+    MUN_CZE_establish_air_defense_zones = {
+        allow = {
+            always = no
+            
+        }
+        research_cost = -1
+        start_year = 1936
+        static_anti_air_hit_chance_factor = 0.1
+        ai_will_do = {
+            factor = 0
+            
+        }
+        
+    }
+    MUN_merge_the_financial_and_state_guard_tech = {
+        allow = {
+            always = no
+            
+        }
+        research_cost = -1
+        start_year = 1936
+        military_police = {
+            max_strength = 5
+            
+        }
+        ai_will_do = {
+            factor = 0
+            
+        }
+        
+    }
+    MUN_anti_tank_development_tech = {
+        research_cost = 1
+        allow = {
+            always = no
+            
+        }
+        anti_tank = {
+            ap_attack = 0.05
+            
+        }
+        anti_tank_brigade = {
+            ap_attack = 0.05
+            
+        }
+        artillery = {
+            ap_attack = 0.05
+            
+        }
+        artillery_brigade = {
+            ap_attack = 0.05
+            
+        }
+        
+    }
+    MUN_horska_artillery = {
+        research_cost = 1
+        allow = {
+            always = no
+            
+        }
+        artillery_brigade = {
+            mountain = {
+                attack = 0.1
+                movement = 0.1
+                
+            }
+            hills = {
+                attack = 0.1
+                movement = 0.1
+                
+            }
+            
+        }
+        
+    }
+    MUN_recon_in_force = {
+        research_cost = 1
+        allow = {
+            always = no
+            
+        }
+        category_recon = {
+            max_strength = 5
+            recon = 0.1
+            
+        }
+        
+    }
+    MUN_improved_supply_dumps = {
+        research_cost = 1
+        allow = {
+            always = no
+            
+        }
+        logistics_company = {
+            supply_consumption_factor = -0.1
+            
+        }
+        
+    }
+    MUN_intergrate_fortification_engineers = {
+        research_cost = 1
+        allow = {
+            always = no
+            
+        }
+        engineer = {
+            entrenchment = 0.1
+            fort = {
+                defence = 0.1
+                
+            }
+            
+        }
+        
+    }
+    MUN_camo_netting = {
+        research_cost = 1
+        allow = {
+            always = no
+            
+        }
+        category_light_infantry = {
+            forest = {
+                defence = 0.1
+                
+            }
             
         }
         
