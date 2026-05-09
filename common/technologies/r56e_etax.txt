@@ -46,6 +46,9 @@ technologies = {
 			leads_to_tech = etax_air_focus 
 			research_cost_coeff = 1
 		}
+
+		consumer_goods_factor = 0.01
+		research_speed_factor = 0.02
 		
 		doctrine = no	
 		research_cost = 3.0
@@ -57,6 +60,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 		}
 		
@@ -110,6 +114,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			land_doctrine
             infantry_tech			
 			cat_mobile_warfare
@@ -188,6 +193,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			naval_doctrine
             naval_equipment
 			cat_fleet_in_being
@@ -249,6 +255,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			air_doctrine
          	air_equipment
 			cat_strategic_destruction
@@ -301,13 +308,16 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			land_doctrine
-            infantry_tech			
+            infantry_tech
 			cat_mobile_warfare
 			cat_mass_assault
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -352,6 +362,7 @@ technologies = {
 		#max_planning = 0.05
 			
 		categories = {
+			r56_special_research_division
 			land_doctrine
             infantry_tech			
 			cat_mobile_warfare
@@ -359,6 +370,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -408,6 +421,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			land_doctrine
             infantry_tech			
 			cat_mobile_warfare
@@ -415,6 +429,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -455,6 +471,7 @@ technologies = {
 		max_dig_in_factor = 0.1
 					
 		categories = {
+			r56_special_research_division
 			land_doctrine
             infantry_tech			
 			cat_mobile_warfare
@@ -462,6 +479,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -515,12 +534,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			naval_doctrine
-           naval_equipment
+        	naval_equipment
 			cat_fleet_in_being
 			cat_trade_interdiction
 			cat_base_strike
 		}
+
+		special_project_specialization = { specialization_naval }
 
 		ai_will_do = {
 			factor = 1
@@ -579,12 +601,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			naval_doctrine
            naval_equipment
 			cat_fleet_in_being
 			cat_trade_interdiction
 			cat_base_strike
 		}
+
+		special_project_specialization = { specialization_naval }
 
 		ai_will_do = {
 			factor = 1
@@ -644,12 +669,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			naval_doctrine
            naval_equipment
 			cat_fleet_in_being
 			cat_trade_interdiction
 			cat_base_strike
 		}
+
+		special_project_specialization = { specialization_naval }
 
 		ai_will_do = {
 			factor = 0
@@ -708,12 +736,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			naval_doctrine
            naval_equipment
 			cat_fleet_in_being
 			cat_trade_interdiction
 			cat_base_strike
 		}
+
+		special_project_specialization = { specialization_naval }
 
 		ai_will_do = {
 			factor = 0
@@ -773,12 +804,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			air_doctrine
             air_equipment
 			cat_strategic_destruction
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -831,12 +865,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			air_doctrine
-           air_equipment
+        	air_equipment
 			cat_strategic_destruction
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -890,12 +927,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			air_doctrine
-           air_equipment
+        	air_equipment
 			cat_strategic_destruction
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -956,12 +996,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			air_doctrine
-           air_equipment
+       		air_equipment
 			cat_strategic_destruction
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -1019,6 +1062,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 			construction_tech
 		}
@@ -1062,6 +1106,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 		}
 
@@ -1103,6 +1148,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 		}
 
@@ -1149,6 +1195,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 		}
 
@@ -1196,6 +1243,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 		}
 
@@ -1237,6 +1285,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 		}
 
@@ -1285,6 +1334,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 		}
 
@@ -1339,6 +1389,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 
             infantry_tech			
 
@@ -1385,8 +1436,11 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
             infantry_tech			
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -1434,6 +1488,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			land_doctrine
             infantry_tech			
 			cat_mobile_warfare
@@ -1441,6 +1496,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -1490,8 +1547,11 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			electronics
 		}
+
+		special_project_specialization = { specialization_nuclear }
 
 		ai_will_do = {
 			factor = 1
@@ -1543,6 +1603,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			land_doctrine
             infantry_tech			
 			cat_mobile_warfare
@@ -1550,6 +1611,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 70
@@ -1580,8 +1643,11 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
             infantry_tech	
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			
@@ -1629,8 +1695,11 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			electronics
 		}
+
+		special_project_specialization = { specialization_nuclear }
 
 		ai_will_do = {
 			factor = 1
@@ -1683,6 +1752,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 		}
 
@@ -1747,9 +1817,12 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
             infantry_tech			
 			industry
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -1791,6 +1864,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 			construction_tech
 		}
@@ -1850,8 +1924,11 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			industry
 		}
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -1897,8 +1974,11 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			nuclear
 		}
+
+		special_project_specialization = { specialization_nuclear }
 
 		ai_will_do = {
 			factor = 1
@@ -1941,6 +2021,7 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			land_doctrine
             infantry_tech			
 			cat_mobile_warfare
@@ -1948,7 +2029,8 @@ technologies = {
 			cat_grand_battle_plan
 			cat_superior_firepower
 		}
-		
+
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 1
@@ -1998,12 +2080,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			air_doctrine
-           air_equipment
+        	air_equipment
 			cat_strategic_destruction
 			cat_battlefield_support
 			cat_operational_integrity
 		}
+
+		special_project_specialization = { specialization_air }
 
 		ai_will_do = {
 			factor = 1
@@ -2052,12 +2137,15 @@ technologies = {
 		}
 			
 		categories = {
+			r56_special_research_division
 			naval_doctrine
-           naval_equipment
+        	naval_equipment
 			cat_fleet_in_being
 			cat_trade_interdiction
 			cat_base_strike
 		}
+
+		special_project_specialization = { specialization_naval }
 
 		ai_will_do = {
 			factor = 1

@@ -88,5 +88,5 @@ def path_idea_tags(kx_path, out_folder):
 
 
 def patch(mod_folder, out_folder):
-    patch_USA_tech(mod_folder, out_folder)
+    #patch_USA_tech(mod_folder, out_folder)
     path_idea_tags(mod_folder, out_folder)
